@@ -4,6 +4,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { RouteParamList } from "./RouteParamList";
 
+import { DayProvider } from "./context/DayContext";
+
 import HomeScreen from "./screens/HomeScreen";
 import Day from "./screens/Day";
 

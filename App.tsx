@@ -1,2 +1,11 @@
+import React from "react";
 import { Routes } from "./src/Routes";
-export default Routes;
+import { DayProvider } from "./src/context/DayContext";
+
+export default function App() {
+  return (
+    <DayProvider>
+      <Routes />
+    </DayProvider>
+  );
+}
